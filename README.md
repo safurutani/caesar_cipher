@@ -4,5 +4,7 @@ This javascript function takes in a string that is either plain english text or 
 The function has 4 parameters. The first is the string that is being encoded or decoded. The second parameter is the number of times you are shifting the alphabet - if it were 1, then the alphabet would start with B and A would come at the end after Z. The third parameter is a boolean indicating whether the string provided is being encoded. If true, it will be encrypted to the point it won't look like english. If false, it will be decoded to the original alphabet. Finally, the last parameter is also a boolean that indicates whether the string returned should be in all lowercase. By default, the result will be all uppercase no matter the original case of the string.
 
 Examples:
+
 caesarShift("OKAY", 4, true, false); returns SOEC
+
 caesarShift("SoEc", 4, false, true); returns okay
