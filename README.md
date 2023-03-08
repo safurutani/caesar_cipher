@@ -5,6 +5,6 @@ The function has 4 parameters. The first is the string that is being encoded or 
 
 Examples:
 
-caesarShift("OKAY", 4, true, false); returns SOEC
+`caesarShift("OKAY", 4, true, false); returns SOEC
 
-caesarShift("SoEc", 4, false, true); returns okay
+caesarShift("SoEc", 4, false, true); returns okay`
